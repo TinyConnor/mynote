@@ -4,26 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e3180369dfd16f99",
+        "id": "7ac5fd1607161b67",
         "type": "tabs",
         "children": [
           {
-            "id": "8405b675a26e9f87",
-            "type": "leaf",
-            "state": {
-              "type": "pkmer-downloader",
-              "state": {},
-              "icon": "bookmark",
-              "title": "Pkmer Market"
-            }
-          },
-          {
-            "id": "c46d52dbea5ceff0",
+            "id": "f2e280fbaa36e5b8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "rt_thread/rt-thread.md",
+                "file": "RT_Thread/rt-thread.md",
                 "mode": "source",
                 "source": false
               },
@@ -31,8 +21,7 @@
               "title": "rt-thread"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -88,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "7d4e14e1d55f99e4",
@@ -150,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "rt_thread/rt-thread.md"
+                "file": "RT_Thread/rt-thread.md"
               },
               "icon": "lucide-list",
               "title": "rt-thread 的大纲"
@@ -173,14 +163,14 @@
       "pkmer:Open Pkmer Market": false
     }
   },
-  "active": "c46d52dbea5ceff0",
+  "active": "f2e280fbaa36e5b8",
   "lastOpenFiles": [
-    "LICENSE",
     "Git/Git.md",
-    "rt_thread/rt-thread.md",
+    "RT_Thread/rt-thread.md",
+    "LICENSE",
     "附件/Pasted image 20250101151227.png",
     "附件",
-    "rt_thread",
+    "RT_Thread",
     "README.md",
     "Git",
     "欢迎.md"
