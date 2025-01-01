@@ -1,5 +1,11 @@
 {
   "monospaceFontFamily": "BitstromWera Nerd Font Mono",
   "textFontFamily": "Arial Unicode MS",
-  "baseFontSize": 21
+  "baseFontSize": 21,
+  "cssTheme": "Blue Topaz",
+  "theme": "obsidian",
+  "accentColor": "#5cf5db",
+  "enabledCssSnippets": [
+    "code"
+  ]
 }
