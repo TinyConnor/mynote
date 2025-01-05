@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7ac5fd1607161b67",
+        "id": "ddb2aa46d70fa7c7",
         "type": "tabs",
         "children": [
           {
-            "id": "f2e280fbaa36e5b8",
+            "id": "684ea4ab90500aa1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -163,15 +163,17 @@
       "pkmer:Open Pkmer Market": false
     }
   },
-  "active": "f2e280fbaa36e5b8",
+  "active": "684ea4ab90500aa1",
   "lastOpenFiles": [
     "Git/Git.md",
     "RT_Thread/rt-thread.md",
+    "附件/线程状态切换.png",
+    "附件/rtt启动流程.png",
+    "附件",
+    "README.md",
     "LICENSE",
     "附件/Pasted image 20250101151227.png",
-    "附件",
     "RT_Thread",
-    "README.md",
     "Git",
     "欢迎.md"
   ]
