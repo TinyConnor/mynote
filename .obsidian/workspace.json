@@ -11,10 +11,14 @@
             "id": "2110a6bc2a5985ea",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Git.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Git"
             }
           }
         ]
@@ -134,9 +138,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "Git.md"
+              },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "Git 的大纲"
             }
           }
         ],
@@ -157,15 +163,15 @@
   },
   "active": "2110a6bc2a5985ea",
   "lastOpenFiles": [
-    "rt-thread.md",
-    "Git/Git.md",
-    "Git.md",
     "Linux命令.md",
+    "README.md",
+    "rt-thread.md",
+    "Git.md",
+    "Git/Git.md",
     "RT_Thread/rt-thread.md",
     "Linux设备驱动.md",
     "附件/rtt启动流程.png",
     "附件/线程状态切换.png",
-    "README.md",
     "附件",
     "LICENSE",
     "附件/Pasted image 20250101151227.png",
