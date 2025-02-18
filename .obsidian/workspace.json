@@ -4,11 +4,19 @@
     "type": "split",
     "children": [
       {
+<<<<<<< HEAD
         "id": "a7fbc98fb91093a8",
         "type": "tabs",
         "children": [
           {
             "id": "2110a6bc2a5985ea",
+=======
+        "id": "ddb2aa46d70fa7c7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "684ea4ab90500aa1",
+>>>>>>> 9ea7dfaec01a3093442d16c908c3a7f470e7bd3e
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -161,16 +169,27 @@
       "pkmer:Open Pkmer Market": false
     }
   },
+<<<<<<< HEAD
   "active": "2110a6bc2a5985ea",
+=======
+  "active": "684ea4ab90500aa1",
+>>>>>>> 9ea7dfaec01a3093442d16c908c3a7f470e7bd3e
   "lastOpenFiles": [
     "Linux命令.md",
     "Git/Git.md",
     "RT_Thread/rt-thread.md",
+<<<<<<< HEAD
     "Linux设备驱动.md",
     "附件/rtt启动流程.png",
     "附件/线程状态切换.png",
     "README.md",
     "附件",
+=======
+    "附件/线程状态切换.png",
+    "附件/rtt启动流程.png",
+    "附件",
+    "README.md",
+>>>>>>> 9ea7dfaec01a3093442d16c908c3a7f470e7bd3e
     "LICENSE",
     "附件/Pasted image 20250101151227.png",
     "RT_Thread",

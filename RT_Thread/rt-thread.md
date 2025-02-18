@@ -127,7 +127,11 @@ int $Sub$$main(void)
 	rt_hw_interrupt_disable();
 	rtthread_startup();// 也在componet.c中实现
 	return 0;
+<<<<<<< HEAD
 }[[Git]]
+=======
+}
+>>>>>>> 9ea7dfaec01a3093442d16c908c3a7f470e7bd3e
 ```
 ## 1.3rtthread_startup函数
 ```c
@@ -580,6 +584,7 @@ void rt_free(void *rmem);
 @brief 释放动态申请的内存回到堆区
 @param rmem 被释放内存块的地址
 ```
+<<<<<<< HEAD
 # 10.链表
 ## 10.1 双向链表的函数接口
 ### 10.1.1 链表初始化函数 rt_list_init
@@ -609,3 +614,5 @@ rt_inline void rt_list_remove(rt_list_t *n);
 @param n 要删除的节点
 ```
 
+=======
+>>>>>>> 9ea7dfaec01a3093442d16c908c3a7f470e7bd3e
