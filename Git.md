@@ -159,3 +159,6 @@
 
 ##### git revert——回退远程提交
 - `<散列值>`:回退远程提交有回退记录
+
+
+>各位有时间时注意深入学习git的基本操作。用得比较多的git remote/checkout/branch/rebase/commit/log/cherry-pick/format-archive
