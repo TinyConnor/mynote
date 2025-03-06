@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "内核驱动/阻塞与非阻塞IO.md",
+                "file": "内核驱动/异步通知与异步IO.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "阻塞与非阻塞IO"
+              "title": "异步通知与异步IO"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "内核驱动/阻塞与非阻塞IO.md"
+                "file": "内核驱动/异步通知与异步IO.md"
               },
               "icon": "lucide-list",
-              "title": "阻塞与非阻塞IO 的大纲"
+              "title": "异步通知与异步IO 的大纲"
             }
           }
         ],
@@ -163,8 +163,9 @@
   },
   "active": "5318740dc098f5e4",
   "lastOpenFiles": [
-    "内核驱动/并发控制.md",
     "内核驱动/阻塞与非阻塞IO.md",
+    "内核驱动/异步通知与异步IO.md",
+    "内核驱动/并发控制.md",
     "附件/顺序锁重读操作.png",
     "附件/读写锁使用实例.png",
     "附件/自旋锁使用场景.png",
