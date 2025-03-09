@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "7d4e14e1d55f99e4",
@@ -163,6 +164,9 @@
   },
   "active": "5318740dc098f5e4",
   "lastOpenFiles": [
+    "附件/异步通知中设备驱动和异步通知的交互.png",
+    "附件/Linux信号及定义.png",
+    "附件/阻塞、结合轮询的非阻塞IO和异步通知的区别.png",
     "内核驱动/阻塞与非阻塞IO.md",
     "内核驱动/异步通知与异步IO.md",
     "内核驱动/并发控制.md",
@@ -177,9 +181,7 @@
     "附件/绑定私有数据结构体.png",
     "附件/私有数据结构体.png",
     "附件/字符设备驱动的结构.png",
-    "附件/字符设备驱动组成.png",
     "Linux命令.md",
-    "附件/menuconfig1.png",
     "内核驱动/Kernel miscellaneous.md",
     "内核驱动/AES--Advanced Encryption Standard.md",
     "内核驱动",
