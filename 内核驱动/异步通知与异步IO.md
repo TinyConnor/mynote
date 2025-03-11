@@ -44,3 +44,81 @@ int fsdync_helper(int fd, struct file *filp, int mode, struct fasync_struct **fa
 ```c
 void kill_fasync(struct fasync_struct **fa, int sig, int band);
 ```
+# 3.异步IO
+Linux中最常用的输入/输出（I/O）模型是同步I/O。在这个模型中，当请求发出之后，应用程序就会阻塞，直到请求满足为止。
+但I/O请求可能需要与CPU消耗产生交叠，以充分利用CPU和I/O提高吞吐率。
+**异步I/O**，应用程序发起I/O动作后，直接开始执行，并不等待I/O结束，它要么过一段时间来查询之前的I/O请求完成情况，要么I/O请求完成了会自动被调用与I/O完成绑定的回调函数。
+![[异步IO时序.png]]
+## 3.1glibc中的异步IO
+Linux的AIO有多种实现，其中一种实现是在用户空间的glibc库中实现的，它本质上是借用了多线程模型，用开启新的线程以同步的方法来做I/O，新的AIO辅助线程与发起AIO的线程以pthread_cond_signal（）的形式进行线程间的同步。
+### 3.1.1aio_read()
+```c
+int aio_read(struct aiocb *aiocbp);
+@brief 请求对一个有效的文件描述符进行异步读操作，这个文件描述符可以使一个文件、套接字、管道
+@param aiocb 包含传输所有信息，以及为AIO操作准备的用户空间缓冲区。
+@return 在请求进行排队后会立即返回(即使读操作未完成)，成功 0 失败 -1重置错误码
+```
+### 3.1.2aio_write()
+```c
+int aio_write(struct aiocb *aiocbp);
+@brief 请求一个异步写操作
+@return 立即返回，并且它的请求已经被排队 成功0 失败-1 重置错误码
+```
+### 3.1.3aio_error()
+```c
+int aio_error(struct aiocb *aiocbp);
+@brief 确定请求状态
+@return
+	EINPROGRESS 请求尚未完成
+	ECANCELED   请求被应用程序取消了
+	-1          发生错误重置错误码
+```
+### 3.1.4aio_return()
+```c
+ssize_t aio_return(struct aiocb *aiocbp);
+@brief 只有在aio_error调用确定请求已经完成之后，才会调用这个函数，
+@return aio_return()等价于同步情况中read()或write()系统调用的返回值
+		如果发生错误，返回值为负数
+```
+### 3.1.5aio_suspend()
+```c
+int aio_suspend(const struct aiocb *const cblist[],
+			   int n,const struct timespec *timeout);
+@brief 阻塞调用进程，直到异步请求完成为止
+```
+### 3.1.6aio_cancel()
+```c
+int aio_cancel(int fd, struct aiocb *aiocbp);
+@brief 取消对某个文件描述符执行的一个或所有IO请求
+@details 要取消一个请求，用户提供文件描述符和aiocb指针
+		要取消对某个文件描述符的所有请求，用户需要提供这个文件描述符，并将aiocbp参数设置为NULL
+@return 取消一个请求：
+			成功取消 AIO_CANCELED
+			请求完成 AIO_NOTCANCELED
+		取消所有请求：
+			所有都取消了 AIO_CANCELED
+			至少有一个没有被取消 AIO_NOT_CANCELED
+			一个都没取消掉 AIO_ALLDONE
+```
+### 3.1.7lio_listio()
+```c
+int lio_listio(int mode, struct aiocb *list[],int nent, struct sigevent *sig);
+@brief 同时发起多个传输，用户可以在一个系统调用中启动大量的IO操作
+@param mode LIO_WAIT 阻塞调用，直到所有IO都完成
+			LIO_NOWAIT 在IO操作进行排队后立即返回
+@param list aiocb引用的列表，最大元素nent个，如果为NULL会忽略
+@param nent 列表最大元素个数
+@param sig 指向 `struct sigevent` 结构体的指针，用于指定当所有 I/O 操作完成后如何通知调用进程（仅在 `mode` 为 `LIO_NOWAIT` 时有效）
+```
+## 3.2内核AIO与设备驱动
+用户空间调用io_submit（）后，对应于用户传递的每一个iocb结构，内核会生成一个与之对应的kiocb结构。file_operations包含3个与AIO相关的成员函数：
+```c
+ssize_t (*aio_read) (struct kiocb *iocb, const struct iovec *iov, unsigned long nr_segs, loff_t pos);
+
+ssize_t (*aio_write) (struct kiocb *iocb, const struct iovec *iov, unsigned long nr_segs, loff_t pos);
+
+int (*aio_fsync) (struct kiocb *iocb, int datasync);
+```
+io_submit（）系统调用间接引起了file_operations中的aio_read（）和aio_write（）的调用。
+AIO一般由内核空间的通用代码处理，对于块设备和网络设备而言，一般在Linux核心层的代码已经解决。字符设备驱动一般不需要实现AIO支持。Linux内核中对字符设备驱动实现AIO的特例包括drivers/char/mem.c里实现的null、zero等，由于zero这样的虚拟设备其实也不存在在要去读的时候读不到东西的情况，所以aio_read_zero（）本质上也不包含异步操作
+

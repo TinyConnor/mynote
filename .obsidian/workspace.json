@@ -164,6 +164,7 @@
   },
   "active": "5318740dc098f5e4",
   "lastOpenFiles": [
+    "附件/异步IO时序.png",
     "附件/异步通知中设备驱动和异步通知的交互.png",
     "附件/Linux信号及定义.png",
     "附件/阻塞、结合轮询的非阻塞IO和异步通知的区别.png",
@@ -180,7 +181,6 @@
     "附件/私有数据与file结构体绑定.png",
     "附件/绑定私有数据结构体.png",
     "附件/私有数据结构体.png",
-    "附件/字符设备驱动的结构.png",
     "Linux命令.md",
     "内核驱动/Kernel miscellaneous.md",
     "内核驱动/AES--Advanced Encryption Standard.md",
