@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "内核驱动/异步通知与异步IO.md",
+                "file": "内核驱动/中断和时钟.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "异步通知与异步IO"
+              "title": "中断和时钟"
             }
           }
         ]
@@ -164,12 +164,14 @@
   },
   "active": "5318740dc098f5e4",
   "lastOpenFiles": [
+    "附件/中断共享.png",
+    "内核驱动/异步通知与异步IO.md",
+    "内核驱动/中断和时钟.md",
     "附件/异步IO时序.png",
     "附件/异步通知中设备驱动和异步通知的交互.png",
     "附件/Linux信号及定义.png",
     "附件/阻塞、结合轮询的非阻塞IO和异步通知的区别.png",
     "内核驱动/阻塞与非阻塞IO.md",
-    "内核驱动/异步通知与异步IO.md",
     "内核驱动/并发控制.md",
     "附件/顺序锁重读操作.png",
     "附件/读写锁使用实例.png",
@@ -180,7 +182,6 @@
     "Git.md",
     "附件/私有数据与file结构体绑定.png",
     "附件/绑定私有数据结构体.png",
-    "附件/私有数据结构体.png",
     "Linux命令.md",
     "内核驱动/Kernel miscellaneous.md",
     "内核驱动/AES--Advanced Encryption Standard.md",

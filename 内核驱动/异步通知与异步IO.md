@@ -19,12 +19,10 @@ sighandler_t signal(int signum, sighandler_t handler);
 第一个参数指定信号的值，第二个参数指定针对前面信号值的处理函数，若为SIG_IGN，表示忽略该信号；若为SIG_DFL，表示采用系统默认方式处理信号；若为用户自定义的函数，则信号被捕获到后，该函数将被执行。
 除了signal（）函数外，sigaction（）函数可用于改变进程接收到特定信号后的行为，它的原型为：
 ```c
-/**
-* @brief 如果把第二、第三个参数都设为NULL，那么该函数可用于检查信号的有效性。
-* @param signum 信号的值，可以是除SIGKILL及SIGSTOP外的任何一个特定有效的信号
-* @param act sigaction的一个实例的指针，在结构体sigaction的实例中，指定了对特定信号的处理函数，若为空，则进程会以缺省方式对信号处理的处理函数，可指定oldact为NULL
-*/
 int sigaction(int signum, const struct sigaction *act, struct sigaction *oldact);
+@brief 如果把第二、第三个参数都设为NULL，那么该函数可用于检查信号的有效性。
+@param signum 信号的值，可以是除SIGKILL及SIGSTOP外的任何一个特定有效的信号
+@param act sigaction的一个实例的指针，在结构体sigaction的实例中，指定了对特定信号的处理函数，若为空，则进程会以缺省方式对信号处理的处理函数，可指定oldact为NULL
 ```
 为了能在用户空间中处理一个设备释放的信号，它必须完成3项工作：
 1. 通过F_SETOWN IO控制命令设置设备文件的拥有者为本进程，这样从设备驱动发出的信号才能被本进程接收到。
