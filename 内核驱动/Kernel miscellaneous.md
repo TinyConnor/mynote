@@ -27,7 +27,7 @@ If unsure, say N.
 ```
 2. Kconfig将影响menuconfig菜单选项
 3. memuconfig菜单配置好后重新生成.config文件
-	![[Pasted image 20250304103302.png]]
+	![[menuconfig1.png]]
 4. makefile文件中添加相关编译选项，从.config中判断是否编译
 	```c
 obj-$(CONF iG_TTY_PRINTK) += ttyprintk.o
