@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "576a3b8f4d517599",
+        "id": "105b3cc222d64018",
         "type": "tabs",
         "children": [
           {
-            "id": "9aa676917b6ade03",
+            "id": "b92c886134527505",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "内核驱动/内存与IO访问.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "内存与IO访问"
+              "title": "新标签页"
             }
           }
         ]
@@ -40,7 +36,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -77,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "7d4e14e1d55f99e4",
@@ -140,10 +136,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "rt-thread.md"
+                "file": "Git.md"
               },
               "icon": "lucide-list",
-              "title": "rt-thread 的大纲"
+              "title": "Git 的大纲"
             }
           }
         ],
@@ -162,33 +158,37 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9aa676917b6ade03",
+  "active": "f670df1bbb34ae85",
   "lastOpenFiles": [
+    "MISC",
+    "Linux系统",
+    "RTOS/rt-thread.md",
+    "RTOS",
+    "Linux内核子系统/1. 字符设备驱动.md",
+    "嵌入式模块",
+    "Linux内核子系统",
+    "内核驱动/0. 内核内存管理.md",
+    "内核驱动/1. Kernel添加模块流程.md",
+    "内核驱动/2. 并发控制.md",
+    "内核驱动/5. 中断和时钟.md",
+    "内核驱动/3. 阻塞与非阻塞IO.md",
+    "内核驱动/4. 异步通知与异步IO.md",
+    "MISC/Git.md",
+    "Linux系统/Linux命令.md",
+    "嵌入式模块/AES--Advanced Encryption Standard.md",
+    "内核驱动/6. 内存与IO访问.md",
     "附件/IO内存访问流程.png",
     "附件/32位ARM系统中Linux内核的地址空间.png",
     "附件/ARM处理器的MMU.png",
-    "内核驱动/并发控制.md",
-    "内核驱动/Kernel miscellaneous.md",
-    "内核驱动/AES--Advanced Encryption Standard.md",
-    "内核驱动/内核内存管理.md",
-    "rt-thread.md",
-    "Git.md",
-    "内核驱动/内存与IO访问.md",
-    "内核驱动/中断和时钟.md",
     "附件/中断共享.png",
-    "内核驱动/异步通知与异步IO.md",
     "附件/异步IO时序.png",
     "附件/异步通知中设备驱动和异步通知的交互.png",
     "附件/Linux信号及定义.png",
     "附件/阻塞、结合轮询的非阻塞IO和异步通知的区别.png",
-    "内核驱动/阻塞与非阻塞IO.md",
     "附件/顺序锁重读操作.png",
     "附件/读写锁使用实例.png",
-    "附件/自旋锁使用场景.png",
-    "内核驱动/字符设备驱动.md",
-    "Linux命令.md",
     "内核驱动",
-    "内核驱动/CRC--循环冗余校验.md",
+    "嵌入式模块/CRC--循环冗余校验.md",
     "README.md",
     "Git/Git.md",
     "RT_Thread/rt-thread.md",
