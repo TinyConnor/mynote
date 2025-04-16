@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux内核子系统/2.platform-平台总线.md",
+                "file": "MISC/Git.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.platform-平台总线"
+              "title": "Git"
             }
           }
         ]
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux内核子系统/2.platform-平台总线.md",
+                "file": "MISC/Git.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2.platform-平台总线 的大纲"
+              "title": "Git 的大纲"
             }
           }
         ],
@@ -155,8 +155,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,6 +167,10 @@
   },
   "active": "b92c886134527505",
   "lastOpenFiles": [
+    "内核驱动/5. 中断和时钟.md",
+    "内核驱动/4. 异步通知与异步IO.md",
+    "内核驱动/3. 阻塞与非阻塞IO.md",
+    "内核驱动/2. 并发控制.md",
     "Linux内核子系统/2.platform-平台总线.md",
     "MISC",
     "Linux系统",
@@ -178,10 +181,6 @@
     "Linux内核子系统",
     "内核驱动/0. 内核内存管理.md",
     "内核驱动/1. Kernel添加模块流程.md",
-    "内核驱动/2. 并发控制.md",
-    "内核驱动/5. 中断和时钟.md",
-    "内核驱动/3. 阻塞与非阻塞IO.md",
-    "内核驱动/4. 异步通知与异步IO.md",
     "MISC/Git.md",
     "Linux系统/Linux命令.md",
     "嵌入式模块/AES--Advanced Encryption Standard.md",
