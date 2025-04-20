@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MISC/Git.md",
+                "file": "Linux系统/Linux命令.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git"
+              "title": "Linux命令"
             }
           }
         ]
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MISC/Git.md",
+                "file": "Linux系统/Linux命令.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Git 的大纲"
+              "title": "Linux命令 的大纲"
             }
           }
         ],
@@ -167,6 +167,7 @@
   },
   "active": "b92c886134527505",
   "lastOpenFiles": [
+    "MISC/Git.md",
     "内核驱动/5. 中断和时钟.md",
     "内核驱动/4. 异步通知与异步IO.md",
     "内核驱动/3. 阻塞与非阻塞IO.md",
@@ -181,7 +182,6 @@
     "Linux内核子系统",
     "内核驱动/0. 内核内存管理.md",
     "内核驱动/1. Kernel添加模块流程.md",
-    "MISC/Git.md",
     "Linux系统/Linux命令.md",
     "嵌入式模块/AES--Advanced Encryption Standard.md",
     "内核驱动/6. 内存与IO访问.md",
