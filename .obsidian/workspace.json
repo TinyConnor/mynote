@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux内核子系统/3.clk子系统.md",
+                "file": "Linux内核子系统/4.reset子系统.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.clk子系统"
+              "title": "4.reset子系统"
             }
           }
         ]
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux内核子系统/3.clk子系统.md",
+                "file": "Linux内核子系统/4.reset子系统.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "3.clk子系统 的大纲"
+              "title": "4.reset子系统 的大纲"
             }
           }
         ],
@@ -167,10 +167,14 @@
   },
   "active": "b92c886134527505",
   "lastOpenFiles": [
+    "Linux内核子系统/3.clk子系统.md",
+    "Linux内核子系统/4.reset子系统.md",
+    "附件/reset子系统/reset子系统框架.png",
+    "附件/reset子系统",
+    "Linux内核子系统/4. reset子系统",
     "附件/clk子系统/CCF框架.png",
     "附件/clk子系统",
     "嵌入式模块/AES--Advanced Encryption Standard.md",
-    "Linux内核子系统/3.clk子系统.md",
     "嵌入式模块/CRC--循环冗余校验.md",
     "Linux系统/Linux命令.md",
     "MISC/Git.md",
@@ -197,16 +201,12 @@
     "附件/异步通知中设备驱动和异步通知的交互.png",
     "附件/Linux信号及定义.png",
     "附件/阻塞、结合轮询的非阻塞IO和异步通知的区别.png",
-    "附件/顺序锁重读操作.png",
-    "附件/读写锁使用实例.png",
     "内核驱动",
     "README.md",
     "Git/Git.md",
     "RT_Thread/rt-thread.md",
     "Linux设备驱动.md",
     "附件",
-    "LICENSE",
-    "RT_Thread",
     "欢迎.md"
   ]
 }
