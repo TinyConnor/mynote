@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux系统/Linux命令.md",
+                "file": "Linux内核子系统/3.clk子系统.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux命令"
+              "title": "3.clk子系统"
             }
           }
         ]
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux系统/Linux命令.md",
+                "file": "Linux内核子系统/3.clk子系统.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Linux命令 的大纲"
+              "title": "3.clk子系统 的大纲"
             }
           }
         ],
@@ -167,6 +167,12 @@
   },
   "active": "b92c886134527505",
   "lastOpenFiles": [
+    "附件/clk子系统/CCF框架.png",
+    "附件/clk子系统",
+    "嵌入式模块/AES--Advanced Encryption Standard.md",
+    "Linux内核子系统/3.clk子系统.md",
+    "嵌入式模块/CRC--循环冗余校验.md",
+    "Linux系统/Linux命令.md",
     "MISC/Git.md",
     "内核驱动/5. 中断和时钟.md",
     "内核驱动/4. 异步通知与异步IO.md",
@@ -182,8 +188,6 @@
     "Linux内核子系统",
     "内核驱动/0. 内核内存管理.md",
     "内核驱动/1. Kernel添加模块流程.md",
-    "Linux系统/Linux命令.md",
-    "嵌入式模块/AES--Advanced Encryption Standard.md",
     "内核驱动/6. 内存与IO访问.md",
     "附件/IO内存访问流程.png",
     "附件/32位ARM系统中Linux内核的地址空间.png",
@@ -196,7 +200,6 @@
     "附件/顺序锁重读操作.png",
     "附件/读写锁使用实例.png",
     "内核驱动",
-    "嵌入式模块/CRC--循环冗余校验.md",
     "README.md",
     "Git/Git.md",
     "RT_Thread/rt-thread.md",
@@ -204,7 +207,6 @@
     "附件",
     "LICENSE",
     "RT_Thread",
-    "Git",
     "欢迎.md"
   ]
 }
