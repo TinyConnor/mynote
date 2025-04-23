@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MISC/CMake.md",
+                "file": "MISC/Shell.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CMake"
+              "title": "Shell"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "7d4e14e1d55f99e4",
@@ -140,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MISC/CMake.md",
+                "file": "MISC/Shell.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "CMake 的大纲"
+              "title": "Shell 的大纲"
             }
           }
         ],
@@ -166,8 +167,9 @@
   },
   "active": "b92c886134527505",
   "lastOpenFiles": [
-    "Linux内核子系统/4.reset子系统.md",
     "MISC/CMake.md",
+    "MISC/Shell.md",
+    "Linux内核子系统/4.reset子系统.md",
     "Linux内核子系统/3.clk子系统.md",
     "附件/reset子系统/reset子系统框架.png",
     "附件/reset子系统",
