@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MISC/Shell.md",
+                "file": "MISC/ssh.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Shell"
+              "title": "ssh"
             }
           }
         ]
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MISC/Shell.md",
+                "file": "MISC/ssh.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Shell 的大纲"
+              "title": "ssh 的大纲"
             }
           }
         ],
@@ -167,6 +167,8 @@
   },
   "active": "b92c886134527505",
   "lastOpenFiles": [
+    "MISC/Git.md",
+    "MISC/ssh.md",
     "MISC/CMake.md",
     "MISC/Shell.md",
     "Linux内核子系统/4.reset子系统.md",
@@ -179,7 +181,6 @@
     "嵌入式模块/AES--Advanced Encryption Standard.md",
     "嵌入式模块/CRC--循环冗余校验.md",
     "Linux系统/Linux命令.md",
-    "MISC/Git.md",
     "内核驱动/5. 中断和时钟.md",
     "内核驱动/4. 异步通知与异步IO.md",
     "内核驱动/3. 阻塞与非阻塞IO.md",
