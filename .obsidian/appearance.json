@@ -6,6 +6,7 @@
   "theme": "obsidian",
   "accentColor": "#5cf5db",
   "enabledCssSnippets": [
-    "code"
+    "code",
+    "center-table"
   ]
 }

@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "105b3cc222d64018",
+        "id": "cce38e5b3af02f87",
         "type": "tabs",
         "children": [
           {
-            "id": "b92c886134527505",
+            "id": "04f04953fb69fe03",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MISC/ssh.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "ssh"
+              "title": "新标签页"
             }
           }
         ]
@@ -78,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "7d4e14e1d55f99e4",
@@ -141,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MISC/ssh.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "ssh 的大纲"
+              "title": "大纲"
             }
           }
         ],
@@ -162,11 +156,14 @@
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "templates:插入模板": true,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "pkmer:Open Pkmer Market": false
     }
   },
-  "active": "b92c886134527505",
+  "active": "04f04953fb69fe03",
   "lastOpenFiles": [
+    "MISC/JLink命令.md",
+    "Linux系统/Linux命令.md",
     "MISC/Git.md",
     "MISC/ssh.md",
     "MISC/CMake.md",
@@ -180,7 +177,6 @@
     "附件/clk子系统",
     "嵌入式模块/AES--Advanced Encryption Standard.md",
     "嵌入式模块/CRC--循环冗余校验.md",
-    "Linux系统/Linux命令.md",
     "内核驱动/5. 中断和时钟.md",
     "内核驱动/4. 异步通知与异步IO.md",
     "内核驱动/3. 阻塞与非阻塞IO.md",
