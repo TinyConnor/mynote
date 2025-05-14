@@ -1,5 +1,9 @@
 
 ## 0.常用
+默认指定编译为linux下的makefile，这样就可以每次编译不需要-G指定编译类型
+>添加环境变量：
+>变量名：CMAKE_GENERATOR(任意)
+>变量值：MinGW Makefiles
 
 ```cmake
 #最小版本号
