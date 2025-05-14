@@ -1,3 +1,28 @@
+在终端下使用conda,这样会是**cmd启动变慢，谨慎添加**
+
+ >conda环境变量
+ D:\miniconda3
+D:\miniconda3\Scripts
+D:\miniconda3\Library\bin
+
+
+1. 查看系统执行策略
+ get-executionpolicy
+Restricted
+2. 修改系统执行策略
+ set-executionpolicy remotesigned
+在交互中选择是，Y
+3. 终端重启conda
+   conda init powershell
+会在user/用户名/.bash_profile下
+```shell
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+if [ -f '/d/conda/Scripts/conda.exe' ]; then
+    eval "$('/d/conda/Scripts/conda.exe' 'shell.bash' 'hook')"
+fi
+# <<< conda initialize <<<
+```
 ### 1.管理conda自身
 #### 1.1查看conda版本
 ```shell
@@ -43,6 +68,10 @@ conda config --add envs_dirs D:\ProgramData\anaconda3\envs
 conda condif --show envs_dirs
 #删除环境路径
 conda config --remove envs_dirs <path>
+
+#更改包存放路径
+conda config --show pkgs_dirs  # 显示包缓存目录
+conda config --add pkgs_dirs D:\ProgramData\anaconda3\pkgs
 ```
 **方法二：**
 修改`C:\Users\Username\.condarc`内容
