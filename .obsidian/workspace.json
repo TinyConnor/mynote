@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux系统/Linux根文件目录结构.md",
+                "file": "MISC/内存分区.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux根文件目录结构"
+              "title": "内存分区"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "7d4e14e1d55f99e4",
@@ -141,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux系统/Linux根文件目录结构.md",
+                "file": "MISC/内存分区.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Linux根文件目录结构 的大纲"
+              "title": "内存分区 的大纲"
             }
           }
         ],
@@ -165,18 +164,19 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "398dc7f3f3ec4057",
+  "active": "04f04953fb69fe03",
   "lastOpenFiles": [
-    "Linux系统/Linux命令.md",
+    "MISC/vscode.md",
+    "MISC/内存分区.md",
+    "MISC/conda.md",
     "Linux系统/Linux根文件目录结构.md",
+    "Linux系统/Linux命令.md",
     "MISC/Git.md",
     "MISC/JLink命令.md",
     "MISC/Shell.md",
-    "MISC/vscode.md",
     "附件/新建vscode配置文件.png",
     "附件/vscode配置文件.png",
     "MISC/CMake.md",
-    "MISC/conda.md",
     "Linux内核子系统/3.clk子系统.md",
     "Linux内核子系统/4.reset子系统.md",
     "MISC/ssh.md",
@@ -211,7 +211,6 @@
     "内核驱动",
     "README.md",
     "Git/Git.md",
-    "RT_Thread/rt-thread.md",
     "附件"
   ]
 }
