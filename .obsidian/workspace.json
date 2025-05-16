@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MISC/内存分区.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "内存分区"
+              "title": "README"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MISC/内存分区.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "内存分区 的大纲"
+              "title": "README 的大纲"
             }
           }
         ],
@@ -166,12 +166,13 @@
   },
   "active": "04f04953fb69fe03",
   "lastOpenFiles": [
-    "MISC/vscode.md",
+    "MISC/Git.md",
+    "README.md",
     "MISC/内存分区.md",
+    "MISC/vscode.md",
     "MISC/conda.md",
     "Linux系统/Linux根文件目录结构.md",
     "Linux系统/Linux命令.md",
-    "MISC/Git.md",
     "MISC/JLink命令.md",
     "MISC/Shell.md",
     "附件/新建vscode配置文件.png",
@@ -209,7 +210,6 @@
     "附件/异步IO时序.png",
     "附件/异步通知中设备驱动和异步通知的交互.png",
     "内核驱动",
-    "README.md",
     "Git/Git.md",
     "附件"
   ]

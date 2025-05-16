@@ -81,10 +81,16 @@
 - `<URL传输协议>:<仓库位置>`:克隆不同来源版本库，URL传输协议有：file、ssh、http、https、ftp、ftps、rsync
 ---
 ## git config——配置git用户信息
-`--global user.name "name"`:配置⽤户名
-`--global user.email "email"`:配置邮箱
-`--global credential.helper store`:保存⽤户名和密码
-`--global --list`:查看⽤户名和邮箱
+`--<范围>`：可选全局、系统和局部(本地仓库) *优先级：局部>全局>系统*
+	--system:系统，对所有用户的所有仓库生效 */etc/gitconfig或C:/ProgramData/Git/config*
+	--global:全局，对当前用户的所有仓库生效 *~/.gitconfig或~/.config/git/config*
+	--local(默认):仅当前仓库生效 *.git/config*
+`--<范围> user.name "name"`:配置⽤户名
+`--<范围> user.email "email"`:配置邮箱
+`--<范围> credential.helper store`:保存⽤户名和密码
+`--<范围> --list`:查看⽤户名和邮箱
+`--<范围> --unset <属性>`:删除config指定键值对
+`--<范围> --list --show-origin`:显示所有用户信息并附带来源
 
 ---
 ## git commit——创建提交
