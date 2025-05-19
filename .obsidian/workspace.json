@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Linux系统/Linux启动流程.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Linux启动流程"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "Linux系统/Linux启动流程.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "README 的大纲"
+              "title": "Linux启动流程 的大纲"
             }
           }
         ],
@@ -154,7 +154,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,9 +165,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "04f04953fb69fe03",
+  "active": "f670df1bbb34ae85",
   "lastOpenFiles": [
+    "附件/Linux启动流程",
+    "附件/Linux启动流程/linux启动流程.png",
     "MISC/Git.md",
+    "Linux系统/Linux启动流程.md",
     "README.md",
     "MISC/内存分区.md",
     "MISC/vscode.md",
@@ -202,15 +206,12 @@
     "Linux内核子系统",
     "内核驱动/0. 内核内存管理.md",
     "内核驱动/1. Kernel添加模块流程.md",
-    "内核驱动/6. 内存与IO访问.md",
     "附件/IO内存访问流程.png",
     "附件/32位ARM系统中Linux内核的地址空间.png",
     "附件/ARM处理器的MMU.png",
     "附件/中断共享.png",
     "附件/异步IO时序.png",
-    "附件/异步通知中设备驱动和异步通知的交互.png",
     "内核驱动",
-    "Git/Git.md",
     "附件"
   ]
 }

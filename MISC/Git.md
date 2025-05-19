@@ -180,6 +180,8 @@
 ---
 ## git revert——回退远程提交
 - `<散列值>`:回退远程提交有回退记录
+- `<oldest-commit>..<latest-commit>`:回退多次提交，不包含*oldest-commit*
+
 ---
 ## git rm——删除文件
 * `<文件名>`:删除工作区和暂存区
