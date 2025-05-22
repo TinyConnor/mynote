@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MISC/Git.md",
+                "file": "MISC/GDB.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git"
+              "title": "GDB"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MISC/Git.md",
+                "file": "MISC/GDB.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Git 的大纲"
+              "title": "GDB 的大纲"
             }
           }
         ],
@@ -154,7 +154,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,12 +167,14 @@
   },
   "active": "c6c3afa6b4312deb",
   "lastOpenFiles": [
+    "MISC/conda.md",
+    "MISC/GDB.md",
+    "MISC/Git.md",
     "Linux系统/Linux启动流程.md",
     "Linux系统/Linux根文件目录结构.md",
     "Linux系统/vscode构建Linux内核.md",
     "MISC/vscode.md",
     "Linux系统/Linux命令.md",
-    "MISC/Git.md",
     "RTOS/rt-thread.md",
     "附件/RTThread",
     "附件/RTThread/线程状态切换.png",
@@ -197,12 +200,10 @@
     "附件/Linux启动流程/linux启动流程.png",
     "README.md",
     "MISC/内存分区.md",
-    "MISC/conda.md",
     "MISC/JLink命令.md",
     "MISC/Shell.md",
     "附件/vscode配置/新建vscode配置文件.png",
     "附件/vscode配置/vscode配置文件.png",
-    "MISC/CMake.md",
     "附件/reset子系统/reset子系统框架.png",
     "附件/reset子系统",
     "Linux内核子系统/4. reset子系统",
