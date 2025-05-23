@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux系统/设备树.md",
+                "file": "MISC/Git.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "设备树"
+              "title": "Git"
             }
           }
         ]
@@ -155,8 +155,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,12 +167,12 @@
   },
   "active": "8e8c3792990ffc3e",
   "lastOpenFiles": [
+    "Linux系统/设备树.md",
     "Linux系统/Linux根文件目录结构.md",
     "内核驱动/1. Kernel添加模块流程.md",
     "内核驱动/0. 内核内存管理.md",
     "Linux系统/Linux命令.md",
     "Linux系统/Linux启动流程.md",
-    "Linux系统/设备树.md",
     "README.md",
     "MISC/Git.md",
     "MISC/GDB.md",
