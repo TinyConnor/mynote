@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8b5cb0c6fa00653a",
+        "id": "affed76e070711d5",
         "type": "tabs",
         "children": [
           {
-            "id": "c6c3afa6b4312deb",
+            "id": "8e8c3792990ffc3e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MISC/Git.md",
+                "file": "Linux系统/设备树.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git"
+              "title": "设备树"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 269.5,
+    "collapsed": true
   },
   "right": {
     "id": "7d4e14e1d55f99e4",
@@ -165,16 +166,20 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "c6c3afa6b4312deb",
+  "active": "8e8c3792990ffc3e",
   "lastOpenFiles": [
+    "Linux系统/Linux根文件目录结构.md",
+    "内核驱动/1. Kernel添加模块流程.md",
+    "内核驱动/0. 内核内存管理.md",
+    "Linux系统/Linux命令.md",
+    "Linux系统/Linux启动流程.md",
+    "Linux系统/设备树.md",
+    "README.md",
+    "MISC/Git.md",
     "MISC/GDB.md",
     "MISC/conda.md",
-    "MISC/Git.md",
-    "Linux系统/Linux启动流程.md",
-    "Linux系统/Linux根文件目录结构.md",
     "Linux系统/vscode构建Linux内核.md",
     "MISC/vscode.md",
-    "Linux系统/Linux命令.md",
     "RTOS/rt-thread.md",
     "附件/RTThread",
     "附件/RTThread/线程状态切换.png",
@@ -183,9 +188,7 @@
     "内核驱动/4. 异步通知与异步IO.md",
     "内核驱动/3. 阻塞与非阻塞IO.md",
     "内核驱动/2. 并发控制.md",
-    "内核驱动/1. Kernel添加模块流程.md",
     "附件/内核驱动",
-    "内核驱动/0. 内核内存管理.md",
     "嵌入式模块/CRC--循环冗余校验.md",
     "附件/CRC",
     "嵌入式模块/AES--Advanced Encryption Standard.md",
@@ -198,10 +201,8 @@
     "MISC/ssh.md",
     "附件/Linux启动流程",
     "附件/Linux启动流程/linux启动流程.png",
-    "README.md",
     "MISC/内存分区.md",
     "MISC/JLink命令.md",
-    "MISC/Shell.md",
     "附件/vscode配置/新建vscode配置文件.png",
     "附件/vscode配置/vscode配置文件.png",
     "附件/reset子系统/reset子系统框架.png",
