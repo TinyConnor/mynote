@@ -12,5 +12,4 @@
 |  Halt  |                  Halt                   |                    Halt CPU.                     |
 |   Go   |                   Go                    |               Start CPU if halted.               |
 | Reset  |                  Reset                  |                    Reset CPU.                    |
-| Reset  |                  Reset                  |                    Reset CPU.                    |
 | ResetX |        ResetX <DelayAfterReset>         |        Reset CPU with delay after reset.         |

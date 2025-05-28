@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MISC/Git.md",
+                "file": "Linux系统/Linux命令.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git"
+              "title": "Linux命令"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "right": {
     "id": "7d4e14e1d55f99e4",
@@ -141,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MISC/Git.md",
+                "file": "Linux系统/Linux命令.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Git 的大纲"
+              "title": "Linux命令 的大纲"
             }
           }
         ],
@@ -167,17 +166,21 @@
   },
   "active": "8e8c3792990ffc3e",
   "lastOpenFiles": [
+    "MISC/Git.md",
+    "Linux系统/Linux命令.md",
+    "MISC/ssh.md",
+    "MISC/JLink命令.md",
+    "嵌入式模块/CRC--循环冗余校验.md",
+    "嵌入式模块/AES--Advanced Encryption Standard.md",
     "Linux系统/设备树.md",
+    "Linux系统/Linux启动流程.md",
+    "Linux系统/vscode构建Linux内核.md",
     "Linux系统/Linux根文件目录结构.md",
     "内核驱动/1. Kernel添加模块流程.md",
     "内核驱动/0. 内核内存管理.md",
-    "Linux系统/Linux命令.md",
-    "Linux系统/Linux启动流程.md",
     "README.md",
-    "MISC/Git.md",
     "MISC/GDB.md",
     "MISC/conda.md",
-    "Linux系统/vscode构建Linux内核.md",
     "MISC/vscode.md",
     "RTOS/rt-thread.md",
     "附件/RTThread",
@@ -188,20 +191,16 @@
     "内核驱动/3. 阻塞与非阻塞IO.md",
     "内核驱动/2. 并发控制.md",
     "附件/内核驱动",
-    "嵌入式模块/CRC--循环冗余校验.md",
     "附件/CRC",
-    "嵌入式模块/AES--Advanced Encryption Standard.md",
     "附件/AES",
     "Linux内核子系统/3.clk子系统.md",
     "Linux内核子系统/2.platform-平台总线.md",
     "Linux内核子系统/1. 字符设备驱动.md",
     "附件/字符设备驱动",
     "附件/vscode配置",
-    "MISC/ssh.md",
     "附件/Linux启动流程",
     "附件/Linux启动流程/linux启动流程.png",
     "MISC/内存分区.md",
-    "MISC/JLink命令.md",
     "附件/vscode配置/新建vscode配置文件.png",
     "附件/vscode配置/vscode配置文件.png",
     "附件/reset子系统/reset子系统框架.png",
