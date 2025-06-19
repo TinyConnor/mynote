@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MISC/Makefile.md",
+                "file": "MISC/Git.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Makefile"
+              "title": "Git"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "right": {
     "id": "7d4e14e1d55f99e4",
@@ -141,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MISC/Makefile.md",
+                "file": "MISC/Git.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Makefile 的大纲"
+              "title": "Git 的大纲"
             }
           }
         ],
@@ -167,8 +166,11 @@
   },
   "active": "8e8c3792990ffc3e",
   "lastOpenFiles": [
-    "嵌入式模块/AES--Advanced Encryption Standard.md",
+    "MISC/CMake.md",
+    "附件/CMake/cmake环境变量.png",
+    "附件/CMake",
     "MISC/Makefile.md",
+    "嵌入式模块/AES--Advanced Encryption Standard.md",
     "Linux系统/vscode构建Linux内核.md",
     "Linux系统/Linux命令.md",
     "Linux系统/Linux根文件目录结构.md",
@@ -197,7 +199,6 @@
     "附件/AES",
     "Linux内核子系统/3.clk子系统.md",
     "Linux内核子系统/2.platform-平台总线.md",
-    "Linux内核子系统/1. 字符设备驱动.md",
     "附件/字符设备驱动",
     "附件/vscode配置",
     "附件/Linux启动流程",
@@ -208,10 +209,8 @@
     "附件/reset子系统",
     "Linux内核子系统/4. reset子系统",
     "附件/clk子系统/CCF框架.png",
-    "附件/clk子系统",
     "附件/内核驱动/IO内存访问流程.png",
     "附件/内核驱动/32位ARM系统中Linux内核的地址空间.png",
-    "附件/内核驱动/ARM处理器的MMU.png",
-    "附件/内核驱动/中断共享.png"
+    "附件/内核驱动/ARM处理器的MMU.png"
   ]
 }
