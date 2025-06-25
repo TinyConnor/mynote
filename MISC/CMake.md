@@ -830,3 +830,9 @@ configure_file(config.h.in config.h @ONLY)
 #define OS_PLATFORM              "@_OS_PLATFORM@"
 ```
 
+### 2.6为Eigen库使能向量化
+```cmake
+# 调用包
+find_package(Eigen3 3.3 REQUIRED CONFIG)
+```
+
