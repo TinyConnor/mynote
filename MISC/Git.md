@@ -33,7 +33,7 @@
 ## git am——应用补丁文件
 >与format-patch配合使用，将.patch文件应用到当前分支
 
-* `<  <补丁文件.patch>`：应用单个补丁
+* `<补丁文件.patch>`：应用单个补丁
 * `</path/to/patches/*.patch>`:应用目录下的所有补丁（按字母顺序）
 * `--3way --keep-cr --no-commit < patch-file.patch`:应用补丁但不提交
 * `--3way`:使用三方合并，减少冲突概率
