@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux内核子系统/5.hwrng(硬件随机数)子系统.md",
+                "file": "内核驱动/7.错误码.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5.hwrng(硬件随机数)子系统"
+              "title": "7.错误码"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux内核子系统/5.hwrng(硬件随机数)子系统.md",
+                "file": "内核驱动/7.错误码.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "5.hwrng(硬件随机数)子系统 的大纲"
+              "title": "7.错误码 的大纲"
             }
           }
         ],
@@ -166,8 +166,9 @@
   },
   "active": "8e8c3792990ffc3e",
   "lastOpenFiles": [
-    "Linux系统/vscode构建Linux内核.md",
     "Linux内核子系统/5.hwrng(硬件随机数)子系统.md",
+    "内核驱动/7.错误码.md",
+    "Linux系统/vscode构建Linux内核.md",
     "Linux系统/Linux命令.md",
     "MISC/Git.md",
     "MISC/JLink命令.md",
@@ -198,7 +199,6 @@
     "附件/内核驱动",
     "附件/CRC",
     "附件/AES",
-    "Linux内核子系统/3.clk子系统.md",
     "附件/字符设备驱动",
     "附件/vscode配置",
     "附件/Linux启动流程",
