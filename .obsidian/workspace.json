@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MISC/Git.md",
+                "file": "Linux内核子系统/7.sysfs子系统.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git"
+              "title": "7.sysfs子系统"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 269.5,
+    "collapsed": true
   },
   "right": {
     "id": "7d4e14e1d55f99e4",
@@ -140,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MISC/Git.md",
+                "file": "Linux内核子系统/7.sysfs子系统.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Git 的大纲"
+              "title": "7.sysfs子系统 的大纲"
             }
           }
         ],
@@ -154,7 +155,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,14 +168,15 @@
   },
   "active": "cc2a3377a0084c4b",
   "lastOpenFiles": [
+    "Linux内核子系统/5.hwrng(硬件随机数)子系统.md",
+    "Linux内核子系统/7.sysfs子系统.md",
+    "MISC/Git.md",
     "Linux系统/Linux命令.md",
     "Linux内核子系统/6.MISC子系统.md",
-    "Linux内核子系统/5.hwrng(硬件随机数)子系统.md",
     "Linux系统/vscode构建Linux内核.md",
     "附件/hwrng子系统/hwrng框架.png",
     "附件/hwrng子系统",
     "内核驱动/7.错误码.md",
-    "MISC/Git.md",
     "MISC/JLink命令.md",
     "MISC/CMake.md",
     "附件/CMake/cmake环境变量.png",
@@ -197,7 +200,6 @@
     "内核驱动/6. 内存与IO访问.md",
     "内核驱动/5. 中断和时钟.md",
     "内核驱动/4. 异步通知与异步IO.md",
-    "内核驱动/3. 阻塞与非阻塞IO.md",
     "附件/内核驱动",
     "附件/CRC",
     "附件/AES",
