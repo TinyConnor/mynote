@@ -139,6 +139,30 @@
 `--max-depth=N`:控制递归深度
 
 ---
+### lsb_release--获取系统发行版信息
+`-v(--version)`:默认选项，展示lsb_release模块系统版本支持
+`-i(--id)`:仅显示发行版 ID（如 `Ubuntu`、`CentOS`）。
+`-d(--description)`:仅显示系统描述信息。
+`-r(--release)`:仅显示发行版版本号。
+`-c(--codename)`:仅显示发行版代号（如 Ubuntu 的 `jammy`、Debian 的 `bullseye`）。
+`-a(--all)`:显示所有可用的 LSB 信息（最常用）。
+`-s(--short)`:简略显示
+
+---
+### lscpu--展示cpu架构信息
+`-a(--all)`:同时打印在线和离线的CPU
+`-b(--online)`:仅打印在线的CPU
+`-B(--bytes)`:将大小以字节形式打印，而非人类易读的单位
+`-C(--caches)`:有关cache信息
+`-c(--offline)`:仅打印离线信息
+`-J(--json)`:用jison作为默认或拓展格式输出
+`-e(--extended)`:以拓展可读格式输出
+`-p(--parse)`:以可解析形式输出
+`-s(--sysroot)`:使用指定目录作为根目录
+`-x(--hex)`:以十六进制掩码格式输出
+`-y(--physical)`:以物理而非逻辑形式输出
+
+---
 ### lsof--查看进程打开的文件、网络连接和资源
 >字段含义：
  COMMAND：进程名称。
@@ -344,6 +368,18 @@
 `-D`:显示修改时间
 `-C`:启用彩色显示
 `-P`:显示文件权限
+
+---
+### uname--获取系统基本信息
+`-a(--all)`:显示所有可用信息（最常用），等价于同时使用 *-s -n -r -v -m*。
+`-s(--kernel-name)`:显示内核名称（如 *Linux、Darwin*）。
+`-n(--nodename)`:显示主机名（即 *hostname* 命令的输出）。
+`-r(--kernel-release)`:显示内核版本号（如 *5.15.0-76-generic*）。
+`-v(--kernel-version)`:显示内核编译信息（如编译时间、编译用户）。
+`-m(--machine)`:显示硬件架构（如 *x86_64、aarch64、armv7l*）。
+`-p(--processor)`:显示处理器类型（如 *x86_64*），某些系统可能显示 *unknown*。
+`-i(--hardware-platform)`:显示硬件平台信息（如 *x86_64*），部分系统可能显示 *unknown*。
+`-o(--operating-system)`:显示操作系统类型（如 *GNU/Linux*）。
 
 ---
 ### wc--统计工具

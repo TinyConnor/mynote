@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "right": {
     "id": "7d4e14e1d55f99e4",
@@ -141,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux内核子系统/7.sysfs子系统.md",
+                "file": "Linux系统/vscode构建Linux内核.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "7.sysfs子系统 的大纲"
+              "title": "vscode构建Linux内核 的大纲"
             }
           }
         ],
@@ -168,12 +167,17 @@
   },
   "active": "cc2a3377a0084c4b",
   "lastOpenFiles": [
-    "Linux内核子系统/5.hwrng(硬件随机数)子系统.md",
-    "Linux内核子系统/7.sysfs子系统.md",
-    "MISC/Git.md",
-    "Linux系统/Linux命令.md",
+    "Linux系统/WSL安装内核.md",
+    "Linux内核子系统/8.crypto子系统.md",
+    "附件/crypto子系统/crypto数据结构关系.png",
+    "附件/crypto子系统",
+    "附件/crypto子系统/crypto框架.png",
     "Linux内核子系统/6.MISC子系统.md",
+    "Linux内核子系统/7.sysfs子系统.md",
     "Linux系统/vscode构建Linux内核.md",
+    "Linux系统/Linux命令.md",
+    "MISC/Git.md",
+    "Linux内核子系统/5.hwrng(硬件随机数)子系统.md",
     "附件/hwrng子系统/hwrng框架.png",
     "附件/hwrng子系统",
     "内核驱动/7.错误码.md",
@@ -197,9 +201,6 @@
     "RTOS/rt-thread.md",
     "附件/RTThread",
     "附件/RTThread/线程状态切换.png",
-    "内核驱动/6. 内存与IO访问.md",
-    "内核驱动/5. 中断和时钟.md",
-    "内核驱动/4. 异步通知与异步IO.md",
     "附件/内核驱动",
     "附件/CRC",
     "附件/AES",
@@ -210,9 +211,6 @@
     "附件/vscode配置/新建vscode配置文件.png",
     "附件/vscode配置/vscode配置文件.png",
     "附件/reset子系统/reset子系统框架.png",
-    "附件/reset子系统",
-    "附件/clk子系统/CCF框架.png",
-    "附件/内核驱动/IO内存访问流程.png",
-    "附件/内核驱动/32位ARM系统中Linux内核的地址空间.png"
+    "附件/clk子系统/CCF框架.png"
   ]
 }
